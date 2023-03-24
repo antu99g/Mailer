@@ -15,5 +15,5 @@ Visit site: [Mailer](https://antu99g.github.io/Mailer_basic/)
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/114740896/227457459-85ddbf11-4aa6-4953-b165-b807903778a5.png" width="380" height="240">&emsp;&emsp;
-<img src="https://user-images.githubusercontent.com/114740896/227457569-f86c7fff-6928-4cb5-9a69-b67c463b5f97.png" width="380" height="240">
+<img src="https://user-images.githubusercontent.com/114740896/227457459-85ddbf11-4aa6-4953-b165-b807903778a5.png" width="380" height="230">&emsp;&emsp;
+<img src="https://user-images.githubusercontent.com/114740896/227457569-f86c7fff-6928-4cb5-9a69-b67c463b5f97.png" width="380" height="230">
