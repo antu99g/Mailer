@@ -31,7 +31,6 @@ function registerNewUser (e) {
       Subject: "Mail from Mailer",
       Body: mailBody,
    }).then((message) => {
-      // alert(message);
       console.log('user response ->', message);
       e.target.reset();
       form.classList.add('hidden');
@@ -49,7 +48,7 @@ function registerNewUser (e) {
    const adminMailBody = `
       Hey <b>Admin</b>,
       <br>
-      &ensp;<b> A new user registered</b>
+      &ensp;<b> New user registered</b>
       <div>
          Name : ${name},
          <br>
