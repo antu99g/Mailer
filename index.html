@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="style.css">
+
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+   <!-- Font Awesome icons -->
+   <script src="https://kit.fontawesome.com/51eec70f98.js" crossorigin="anonymous"></script>
+
+   <!-- Script for sending emails -->
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+   <title>Mailer</title>
+</head>
+<body>
+
+   <div id="adminChange" class="">
+      <button id="showAdminForm"><i class="fa-solid fa-pen-to-square"></i>Change Admin</button>
+
+      <form id="adminForm" class="hidden">
+         <h3>New Admin email</h3>
+         <input type="email" id="adminEmail" placeholder="email">
+         <button id="addAdminBtn">Save</button>
+         <button id="cancelBtn">Cancel</button>
+      </form>
+   </div>
+
+   <main>      
+      <form>
+         <h2>Registration Form</h2>
+
+         <div>
+            <p>Name <span>*</span></p>
+            <input type="text" id="name" placeholder="name" required>
+      
+            <p>Email <span>*</span></p>
+            <input type="email" id="email" placeholder="email" required>
+      
+            <p>Mobile Number <span>*</span></p>
+            <input type="number" id="phone" placeholder="phone" required>
+         </div>
+
+         <div>
+            <p>Age <span>*</span></p>
+            <input type="number" id="age" placeholder="age" required>
+      
+            <p>Location</p>
+            <input type="text" id="location" placeholder="e.g. city, district">
+      
+            <p>Postal Code</p>
+            <input type="number" id="postCode" placeholder="postal code">
+         </div>   
+      
+         <button type="submit">Register</button>
+      </form>
+
+      <div id="greeting" class="hidden">
+         <h1>Thank you !!</h1>
+         <h3>You data has been registered successfully.</h3>
+         <p><span>* </span>If you have not received our confirmation email, please check the spam section in you email.</p>
+      </div>
+   </main>
+   
+
+   <script src="./script.js"></script>
+</body>
+</html>
