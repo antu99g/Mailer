@@ -130,11 +130,15 @@ main > form button{
 
 #greeting{
    width: 35vw;
-   margin-top: 20vh;
-   padding: 20px;
+   margin-top: 25vh;
+   padding: 10px 20px 25px;
 }
 #greeting > h1, #greeting > h3{
    text-align: center;
+   font-family: 'Roboto Mono', monospace;
+}
+#greeting > h1{
+   letter-spacing: .05em;
 }
 
 /* Reusable class-based styles */
