@@ -1,6 +1,6 @@
 # Mailer
 
-This is a basic frontend project. You can fill your data in the registration form and you will receive an email about your successful registration process. Another email will be sent to the admin with all the data given in the form. user can change the email of the admin.
+This is a basic frontend project. You can fill your data in the registration form and you will receive an email about your successful registration. Another email will be sent to the admin with all the data given in the form. User can change the email of the admin.
 
 
 ## Tech Stack
